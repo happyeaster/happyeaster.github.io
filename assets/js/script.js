@@ -133,7 +133,6 @@ var showInhabitant = function(){
 
 var pickInhabitantById = function() {
   if (!selectedInhabitantId) selectedInhabitantId = inhabitantIds[Math.floor(Math.random() * inhabitantIds.length)];
-  console.log(selectedInhabitantId);
   showInhabitant();
 };
 
