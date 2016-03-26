@@ -9,8 +9,8 @@ Add `&static=true` to url to turn animation off.
 ### chicken
 http://happyeaster.github.io?inhabitant=chicken
 
-### cohanovius
-http://happyeaster.github.io?inhabitant=cohanovius
+### cochanovius
+http://happyeaster.github.io?inhabitant=cochanovius
 
 ### creepy
 http://happyeaster.github.io?inhabitant=creepy

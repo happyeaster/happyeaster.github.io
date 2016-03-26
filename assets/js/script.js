@@ -29,7 +29,7 @@ var isStatic = function(){
 
 var setInhabitantIdByUrl = function() {
   var inh = ['chicken', 'foos', 'heart', 'spray', 'creepy', 'ljackson', 'owl',
-             'surf', 'harry', 'cohanovius', 'theatre', 'deer', 'thai', 'tank'];
+             'surf', 'harry', 'cochanovius', 'theatre', 'deer', 'thai', 'tank'];
   var predefinedInhabitantId = getUrlVars()['inhabitant'];
   if (!!predefinedInhabitantId && inh.indexOf(predefinedInhabitantId) != -1)
     selectedInhabitantId = predefinedInhabitantId;
@@ -49,7 +49,7 @@ customize = function(){
       var customized = 'harry';
       break;
     case 'mama':
-      var customized = 'cohanovius';
+      var customized = 'cochanovius';
       break;
     case 'michal':
       var customized = 'theatre';
