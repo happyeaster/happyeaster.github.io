@@ -15,6 +15,12 @@ http://happyeaster.github.io?inhabitant=cohanovius
 ### creepy
 http://happyeaster.github.io?inhabitant=creepy
 
+### foos
+http://happyeaster.github.io?inhabitant=foos
+
+### ljackson
+http://happyeaster.github.io?inhabitant=ljackson
+
 ### owl
 http://happyeaster.github.io?inhabitant=owl
 
