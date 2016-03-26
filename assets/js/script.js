@@ -46,6 +46,9 @@ customize = function(){
     case 'bator':
       var customized = 'surf';
       break;
+    case 'epi':
+      var customized = 'spray';
+      break;
     case 'gosia':
       var customized = 'harry';
       break;
@@ -105,7 +108,7 @@ var chickenFlood = function() {
   audio.play();
   setTimeout(function(){
     setInterval(addChicken, 50);
-  }, 1500);
+  }, 3000);
 };
 
 var center = function() {
