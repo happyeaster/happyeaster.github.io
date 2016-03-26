@@ -6,41 +6,47 @@ http://happyeaster.github.io
 ## Predefined Inhabitant
 Add `&static=true` to url to turn animation off.
 
-### chicken
+### Chicken
 http://happyeaster.github.io?inhabitant=chicken
 
-### cochanovius
+### Cochanovius
 http://happyeaster.github.io?inhabitant=cochanovius
 
-### creepy
+### Creepy
 http://happyeaster.github.io?inhabitant=creepy
 
-### foos
+### Rainbow Dash
+http://happyeaster.github.io?inhabitant=dash
+
+### Doll
+http://happyeaster.github.io?inhabitant=doll
+
+### Foos
 http://happyeaster.github.io?inhabitant=foos
 
-### ljackson
+### Ljackson
 http://happyeaster.github.io?inhabitant=ljackson
 
-### owl
+### Owl
 http://happyeaster.github.io?inhabitant=owl
 
-### surf
+### Surf
 http://happyeaster.github.io?inhabitant=surf
 
-### harry
+### Harry
 http://happyeaster.github.io?inhabitant=harry
 
-### spray
+### Spray
 http://happyeaster.github.io?inhabitant=spray
 
-### tank
+### Tank
 http://happyeaster.github.io?inhabitant=tank
 
-### deer
+### Deer
 http://happyeaster.github.io?inhabitant=deer
 
-### thai
+### Thai
 http://happyeaster.github.io?inhabitant=thai
 
-### theatre
+### Theatre
 http://happyeaster.github.io?inhabitant=theatre

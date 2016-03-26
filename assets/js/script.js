@@ -28,8 +28,9 @@ var isStatic = function(){
 }
 
 var setInhabitantIdByUrl = function() {
-  var inh = ['chicken', 'foos', 'heart', 'spray', 'creepy', 'ljackson', 'owl',
-             'surf', 'harry', 'cochanovius', 'theatre', 'deer', 'thai', 'tank'];
+  var inh = ['chicken', 'dash', 'doll', 'foos', 'heart', 'spray', 'creepy',
+             'ljackson', 'owl', 'surf', 'harry', 'cochanovius', 'theatre',
+             'deer', 'thai', 'tank'];
   var predefinedInhabitantId = getUrlVars()['inhabitant'];
   if (!!predefinedInhabitantId && inh.indexOf(predefinedInhabitantId) != -1)
     selectedInhabitantId = predefinedInhabitantId;
@@ -51,6 +52,9 @@ customize = function(){
     case 'mama':
       var customized = 'cochanovius';
       break;
+    case 'mary':
+      var customized = 'doll';
+      break;
     case 'michal':
       var customized = 'theatre';
       break;
@@ -59,6 +63,9 @@ customize = function(){
       break;
     case 'jasiek':
       var customized = 'ljackson';
+      break;
+    case 'jula':
+      var customized = 'dash';
       break;
     case 'kkps':
       var customized = 'foos';
