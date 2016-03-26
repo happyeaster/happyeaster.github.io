@@ -1,7 +1,7 @@
 var eggRotate,
-    customizer = document.getElementById("customizer");
-    audio = new Audio("assets/audio/flood.mp3");
-    stopEggControl = { called: false };
+    audio,
+    customizer = document.getElementById("customizer"),
+    stopEggControl = { called: false },
     eggWidthDefault = 400,
     eggWidth = 0,
     direction = 'up',
@@ -133,6 +133,7 @@ var showInhabitant = function(){
 
 var pickInhabitantById = function() {
   if (!selectedInhabitantId) selectedInhabitantId = inhabitantIds[Math.floor(Math.random() * inhabitantIds.length)];
+  if (selectedInhabitantId == 'spray' || selectedInhabitantId == 'creepy') audio = new Audio("assets/audio/flood.mp3");
   showInhabitant();
 };
 
