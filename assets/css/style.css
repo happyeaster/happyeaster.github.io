@@ -76,6 +76,14 @@ p {
 	border-bottom: 20px solid #fff;
 }
 
+#customizer {
+  position: fixed;
+  top: -500px;
+  color: transparent;
+  background: transparent;
+  border: 0;
+}
+
 #page-wrapper {
   min-height: 100%;
   margin-bottom: -170px;
@@ -120,7 +128,8 @@ p {
   margin: 0px auto;
 }
 
-#chicken, #creepy, #spray {
+#chicken, #creepy, #spray, #owl, #surf, #harry, #cohanovius, #theatre,
+#deer, #thai, #tank {
   display: none;
 }
 
